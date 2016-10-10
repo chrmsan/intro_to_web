@@ -12,10 +12,10 @@ get '/test' do
   "Hello again"
 end
 
-# get '/cat' do
-#   "<div>
-#   <img src="http://bit.ly/1eze8aE"/>
-#   </div>"
-# end
+get '/cat' do
+   "<div style='border: 3px dashed red'>
+   <img src='http://bit.ly/1eze8aE'>
+   </div>"
+ end
 
-#set :session_secret, 'super secret'
+set :session_secret, 'super secret'
